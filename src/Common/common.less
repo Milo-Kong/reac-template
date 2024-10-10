@@ -1,0 +1,91 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rowBetween {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.rowEnd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.columnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainView {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  max-width: 119rem;
+  // background: red;
+  flex-direction: column;
+  @media screen and (max-width:768px) {
+    padding:16px;
+  };
+  position: relative;
+}
+
+.webView {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mobileView {
+  display: none;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.mt-10 { margin-top: 1rem; @media (max-width: 768px) { margin-top: 5px;} }
+.mt-12 { margin-top: 1.2rem; @media (max-width: 768px) { margin-top: 6px;} }
+.mt-16 { margin-top: 1.6rem; @media (max-width: 768px) { margin-top: 8px;} }
+.mt-24 { margin-top: 2.4rem; @media (max-width: 768px) { margin-top: 12px;} }
+.mt-32 { margin-top: 3.2rem; @media (max-width: 768px) { margin-top: 16px;} }
+.mt-48 { margin-top: 4.8rem; @media (max-width: 768px) { margin-top: 24px;} }
+
+.ml-10 { margin-left: 1rem; @media (max-width: 768px) { margin-left: 5px;} }
+.ml-12 { margin-left: 1.2rem; @media (max-width: 768px) { margin-left: 6px;} }
+.ml-16 { margin-left: 1.6rem; @media (max-width: 768px) { margin-left: 8px;} }
+.ml-24 { margin-left: 2.4rem; @media (max-width: 768px) { margin-left: 12px;} }
+.ml-32 { margin-left: 3.2rem; @media (max-width: 768px) { margin-left: 16px;} }
+.ml-48 { margin-left: 4.8rem; @media (max-width: 768px) { margin-left: 24px;} }
+

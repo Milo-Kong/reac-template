@@ -1,0 +1,45 @@
+.selectView {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40rem;
+}
+.selectButton {
+  width: 100%;
+  border-radius: 1rem;
+  height: 4.4rem;
+  background: black;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem;
+  cursor: pointer;
+}
+.selectShowView {
+  position: absolute;
+  top:5rem;
+  width: 100%;
+  background-color: red;
+  border-radius: 1rem;
+  overflow: hidden;
+  transform-origin: 0% 0%;
+  z-index: 10;
+}
+.selectShowItemView {
+  height: 4.4rem;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 0 1.6rem;
+  cursor: pointer;
+}
+.selectShowItemView:hover {
+  background: blue;
+}
